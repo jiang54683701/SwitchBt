@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:switch="http://schemas.android.com/apk/res/com.example.switchlib"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <com.example.switchlib.SwitchBt
+        android:id="@+id/switchBt"
+        android:layout_width="70dp"
+        android:layout_height="32dp"
+        switch:bg_off="@drawable/message_off_bg"
+        switch:bg_on="@drawable/message_on_bg"
+        switch:switch_bt="@drawable/switch_bt"
+        switch:text_color="@color/white"
+        switch:text_size="8dp" />
+
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="SwitchBt">
+        <attr name="bg_on" format="reference|color"/>
+        <attr name="bg_off" format="reference|color" />
+        <attr name="switch_bt" format="reference" />
+        <attr name="text_color" format="reference|color"/>
+        <attr name="text_size" format="dimension" />
+    </declare-styleable>
+
+</resources>
